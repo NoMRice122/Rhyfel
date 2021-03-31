@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+h1{
+  font-size: 35px;
+}
+
+h2{
+  background-color: #707070;
+}
+
+h3{
+  border-style: solid;
+  border-color: #707070;
+}
+
+h5{
+  font-size:17px;
+  background-color: #707070;
+}
+
+body{
+  background-color: #262626;
+  color: #fff;
+}
+
+p{
+  font-size: 17px;
+}
+
+a{
+  color:#0bd;
+
+}
+
+ /**-Rhyfel-**/
+.Rhyfel{
+  color : red;
+}
+
+ /**NoMRice122**/
+.ore{
+  color: yellow;
+}
+
+.news-contents{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.sub-title{
+  font-size:1.375rem;
+  padding:0 8px 8px;
+  border-bottom:2px red solid;
+  font-weight:normal;
+}
+
+.sub-menu{
+  margin-bottom:60px;
+  list-style:none;
+}
+
+/*記事部分*/
+article{
+  width:50%;
+  order:2;
+  margin-right:15%;
+
+}
+/*サイドバー*/
+aside{
+  width:17%;
+  order:1;
+  margin-left:15%;
+}
+
+.sub-menu li{
+  border-bottom:1px #ddd solid;
+}
+
+.sub-menu a{
+  color:#fff;
+  padding:10px;
+  display:block;
+  text-decoration: none;
+}
+
+.sub-menu a:hover{
+  color:#0bd;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+th{
+  background-color:#707070;
+}
+
+.buki{
+  background-color:#fff;
+  color:#000;
+}
+
+.line-through{
+  text-decoration:line-through;
+}
+
+.midori{
+  color:#00FF2B;
+}
+
+.mienikui{
+  color:#3f3f3f;
+}
+
+li{
+  font-size:17px;
+}
+
+.w{
+  margin-top:40px;
+}
+
+/*フッター
+-------------------------*/
+footer{
+  background: #212121;
+  text-align:center;
+  padding:10px 0;
+}
+
+footer p{
+  color:#fff;
+  font-size:0.875rem;
+}
