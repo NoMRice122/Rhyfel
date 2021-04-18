@@ -122,6 +122,68 @@ li{
   margin-top:40px;
 }
 
+.admin{
+  background-color: #212121;
+  color:#fff;
+  padding:20px;
+  margin-bottom: 10px;
+  border: 3px dotted #fff;
+}
+
+.menu {
+    max-width: 600px;
+}
+
+.menu a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+label {
+    width: 320px;
+    display: block;
+    margin: 0;
+    padding : 15px;
+    line-height: 1;
+    color :#fff;
+    background : #333;
+    cursor :pointer;
+    text-align:center;
+    border-bottom:3px solid #2ac5b3;
+}
+
+input {
+    display: none;
+}
+
+.menu ul {
+  width: 350px;
+    margin: 0px 0;
+    padding: 0;
+    color: #000;
+    background :#fff;
+    list-style: none;
+    text-align:left;
+}
+
+.menu li {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#change01:checked ~ #links01 li,
+#change02:checked ~ #links02 li {
+    height: 54px;
+    opacity: 1;
+}
+
 /*フッター
 -------------------------*/
 footer{
